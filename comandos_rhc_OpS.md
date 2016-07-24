@@ -29,7 +29,7 @@ Comando |                                                            Explicaçã
 ---     |                              ---                                     |
 ``rhc app-create {NomedoAplicativo} {webCartridge}``|           Criação de um aplicativo chamado NomedoAplicativo usando o webCartridge como servidor de respostas HTTP |
 ``rhc app-create {NomedoAplicativo} {webCartridge} --from-code http://url_do_git/repositorio.git`` |           Criação de um aplicativo chamado NomedoAplicativo usando o webCartridge e iniciando com o repositório do git clonado da url especificada. |                                                            
-``rhc git-clone -a {MeuAplicativo}``                            Clonar o repositório do Openshift chamado MeuAplicativo no diretório atual. |
+``rhc git-clone -a {MeuAplicativo}``|                            Clonar o repositório do Openshift chamado MeuAplicativo no diretório atual. |
                                                             
                          
 ###Comandos para gerenciar uma aplicação no Openshift 
