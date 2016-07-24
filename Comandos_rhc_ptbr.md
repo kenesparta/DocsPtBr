@@ -18,10 +18,8 @@ estão no mesmo repositório.*
 
 Comando   |                                          Explicação|
 ---       |                             ---                     |
-``rhc setup`` |                                        Configuração da chave SSH e informações de autenticação relacionadas ao registro no servidor do Openshift|
-
-``rhc account`` |                                      Obter informações da conta em uso|
-
+``rhc setup``|                                        Configuração da chave SSH e informações de autenticação relacionadas ao registro no servidor do Openshift|
+``rhc account``|                                      Obter informações da conta em uso|
 ``rhc domain-show``|                                    Obter informações sobre seu namespace, incluindo a listagens dos seus aplicativos.|
                                                    
                                                    
