@@ -25,22 +25,13 @@ Comando   |                                          Explicação|
                                                    
 ###Comandos para a criação de uma aplicação no Openshift 
 
-Comando                                                            Explicação
-
-rhc app-create {NomedoAplicativo} {webCartridge}            Criação de um aplicativo chamado NomedoAplicativo
-                                                             usando o webCartridge como servidor de respostas HTTP
-                                                   
-                                                   
-rhc app-create {NomedoAplicativo} {webCartridge}            Criação de um aplicativo chamado NomedoAplicativo usando o        
---from-code http://url_do_git/repositorio.git               webCartridge e iniciando com o repositório do git clonado da
-                                                            url especificada.
+Comando |                                                            Explicação|
+---     |                              ---                                     |
+``rhc app-create {NomedoAplicativo} {webCartridge}``|           Criação de um aplicativo chamado NomedoAplicativo usando o webCartridge como servidor de respostas HTTP |
+``rhc app-create {NomedoAplicativo} {webCartridge} --from-code http://url_do_git/repositorio.git`` |           Criação de um aplicativo chamado NomedoAplicativo usando o webCartridge e iniciando com o repositório do git clonado da url especificada. |                                                            
+``rhc git-clone -a {MeuAplicativo}``                            Clonar o repositório do Openshift chamado MeuAplicativo no diretório atual. |
                                                             
-                                                                                       
-rhc git-clone -a {MeuAplicativo}                            Clonar o repositório do Openshift chamado MeuAplicativo no 
-                                                            diretório atual. 
-                                                            
-                                                            
-                                                            
+                         
 ###Comandos para gerenciar uma aplicação no Openshift 
 Observação: Os comandos seguintes funcionam se você está no repositório local do git que deseja trabalhar. Se 
 você não está no repositório, deve usar o argumento -a {Nome do aplicativo} para adicionar.
