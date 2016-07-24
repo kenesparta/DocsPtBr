@@ -20,7 +20,7 @@ Comando   |                                          Explicação|
 ---       |                             ---                     |
 ``rhc setup``|                                        Configuração da chave SSH e informações de autenticação relacionadas ao registro no servidor do Openshift|
 ``rhc account``|                                      Obter informações da conta em uso|
-``rhc domain-show``|                                    Obter informações sobre seu namespace, incluindo a listagens dos seus aplicativos.|
+``rhc domain-show``|                                  Obter informações sobre seu namespace, incluindo a listagens dos seus aplicativos.|
                                                    
                                                    
 ###Comandos para a criação de uma aplicação no Openshift 
@@ -39,7 +39,15 @@ você não está no repositório, deve usar o argumento -a {Nome do aplicativo} 
 Comando|                                                 Explicação |
 ---    |                          ---                               | 
 ``rhc app-show -v``|                                   Exibir informações sobre a sua aplicação incluindo usuário e senha de banco de dados. O argumento ``-v`` exibe no modo verbose e é opcional.|
-``rhc app-show-gears quota``|                          |                                                        
+``rhc app-show-gears quota``|                          Exibe quanto espaço em disco o seu aplicativo está usando via gear|
+``rhc app-start``|                                     Inicia uma aplicação|
+``rhc app-stop`` |                                     Pára uma aplicação|
+``rhc app-force-stop``|                                Força que uma alicação seja parada, mais usado quando a aplicação está suspensa ou precisa de uma reinicialização forçada|
+``rhc app-restart`` |                                  Reinicia uma aplicação|
+``rhc ap-tidy``|                                       Exclui todo o conteúdo de `log` e ``/tmp`` para liberar espaço em disco|
+``rhc tail``|                                          Exibe as últimas linhas do arquivo de log do seu aplicativo no terminal|
+  
+                                                        
                                                                                             
                                                    
                                                    
