@@ -36,13 +36,10 @@ Comando |                                                            Explicaçã
 Observação: Os comandos seguintes funcionam se você está no repositório local do git que deseja trabalhar. Se 
 você não está no repositório, deve usar o argumento -a {Nome do aplicativo} para adicionar.
 
-Comando                                                 Explicação
-
-rhc app-show -v                                        Exibir informações sobre a sua aplicação incluindo
-                                                       usuário e senha de banco de dados. O argumento -v exibe
-                                                       no modo verbose e é opcional.
-
-rhc app-show-gears quota                                                         
+Comando|                                                 Explicação |
+---    |                          ---                               | 
+``rhc app-show -v``|                                   Exibir informações sobre a sua aplicação incluindo usuário e senha de banco de dados. O argumento ``-v`` exibe no modo verbose e é opcional.|
+``rhc app-show-gears quota``|                          |                                                        
                                                                                             
                                                    
                                                    
