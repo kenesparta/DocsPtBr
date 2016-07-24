@@ -2,8 +2,8 @@
 
 *Existem diferentes comandos que você pode usar com o RHC linha de comando. Esse documento lista somente
 alguns desses comandos, com uma breve explicação e alguns exemplos. Não esqueça que uma ajuda mais completa pode ser
-encontrada com o comando --help. Por exemplo, caso queria saber mais sobre o funcionamento das aplicações você 
-pode executar rhc app --help em sua linha de comando local para ter acesso a uma lista de ajuda mais completa.*
+encontrada com o comando* ``--help.`` *Por exemplo, caso queria saber mais sobre o funcionamento das aplicações você 
+pode executar* ``rhc app --help`` *em sua linha de comando local para ter acesso a uma lista de ajuda mais completa.*
 
 *Observações: se você criou multiplos namespaces em sua conta, deverá usar o argumento* ``-n {namespace}`` *quando
 quiser especificar um aplicativo.*
