@@ -6,7 +6,7 @@ facilitando assim o desenvolvimento.*
 ## Documentos
 *Um registo no MongoDB é um documento,que é uma estrutura de dados composta de pares de campo e de valor.
 Documentos MongoBD podem ser comparados a objetos JSON. Os valores dos campos podem incluir outros documentos,
-matrizes e matrizes de documentos.
+matrizes e matrizes de documentos.*
 
 ```{
    "_id" : ObjectId("54c955492b7c8eb21818bd09"),
