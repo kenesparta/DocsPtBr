@@ -8,7 +8,7 @@ facilitando assim o desenvolvimento.*
 Documentos MongoBD podem ser comparados a objetos JSON. Os valores dos campos podem incluir outros documentos,
 matrizes e matrizes de documentos.*
 
-```{
+```javascript{
    "_id" : ObjectId("54c955492b7c8eb21818bd09"),
    "address" : {
       "street" : "2 Avenue",
